@@ -30,5 +30,6 @@ public class GetApiTest extends TestBase{
 	public void getApiTest() throws ClientProtocolException, IOException{
 		restClient = new RestClient();
 		restClient.get(url);
+		System.out.println("Test");
 	}
 }
